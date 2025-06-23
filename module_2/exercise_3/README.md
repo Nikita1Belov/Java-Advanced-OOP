@@ -1,4 +1,4 @@
-Let’s say there is a class named Mortgage, which extends from the Exception class. This class has a constructor that takes the following parameters: mortgage loan term and principal amount. Then the constructor calls the method Calculate(), which contains the following algorithm:
+Let’s say there is a class named Mortgage, which extends the Exception class. This class has a constructor that takes the following parameters: mortgage loan term and principal amount. Then the constructor calls the method Calculate(), which contains the following algorithm:
 
 monthly_installment = principal / loan_term + principal / 240. 
 
