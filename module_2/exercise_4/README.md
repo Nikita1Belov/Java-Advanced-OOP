@@ -1,4 +1,4 @@
-## H2 Let's create a few classes for this task.
+## Let's create a few classes for this task.
 Let's try to encupsulate specific logic in specific classes.
 
 **TicketType**
