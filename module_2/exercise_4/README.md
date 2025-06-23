@@ -1,7 +1,7 @@
 ## H2 Let's create a few classes for this task.
 Let's try to incupsulate specific logic in specific classes.
 
-**TicketTYpe**
+**TicketType**
 This class stores only ticket types:
 
 * *SINGLE (for 2-h)*
