@@ -1,1 +1,1 @@
-The answers for a-b are in the a-b folder, and the answers for c are in the c folder.
+The answers to a-b are in the a-b folder, and the answers to c are in the c folder.
