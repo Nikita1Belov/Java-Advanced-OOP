@@ -9,9 +9,9 @@ public class Book {
     private final int lineCount;
     private final List<String> words;
 
-    public Book(Path file, String name, int lineCount, List<String> words) {
+    public Book(Path file, String bookName, int lineCount, List<String> words) {
         this.file = file;
-        this.name = bookName;
+        this.bookName = bookName;
         this.lineCount = lineCount;
         this.words = words;
     }
