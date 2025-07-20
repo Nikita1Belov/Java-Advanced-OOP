@@ -1,4 +1,4 @@
-This is implementation the of Book class.
+This is the implementation of the Book class:
 ```java
 import java.nio.file.Path;
 import java.util.List;
@@ -34,7 +34,7 @@ public class Book {
 }
 ```
 
-In the Zipper and the Gandler classes are the next changes:
+The following changes have been made in the Zipper and Handler classes:
 ```java
 package fi.utu.tech.ooj.exercise4.exercise2;
 
@@ -76,7 +76,7 @@ public class TestZipper extends Zipper {
 }
 ```
 
-And the main realization of required functional is in the Exercise2 class:
+The main functionality required by the task is implemented in the Exercise2 class:
 ```java
 package fi.utu.tech.ooj.exercise4.exercise2;
 
