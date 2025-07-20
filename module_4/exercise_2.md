@@ -2,8 +2,6 @@ This is implementation the of Book class.
 ```java
 import java.nio.file.Path;
 import java.util.List;
-import java.util.Set;
-import java.util.HashSet;
 
 public class Book {
     private final Path file;
