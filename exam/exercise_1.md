@@ -1,0 +1,5 @@
+The card data should be stored in private variables. Users can access card information through getter methods in the Card class. Administrative staff should be able to read and also update card information using setters. This helps prevent accidental errors by enforcing controlled access.
+
+Since users and administrators have different roles, it makes sense to separate them logically in the code. One way to do this is by defining an interface such as Admin, which includes the setter methods. The Card class can implement this interface, but only admin-related parts of the application would have access to it.
+
+Both users and admins can read card data using the public getters in the Card class, but only admins would be allowed to modify data through the interface. This follows the principle of encapsulation, where the internal state of an object is protected and can only be accessed or modified through controlled methods. It also ensures that the class invariant is maintained, since all changes go through validation in the setters.
